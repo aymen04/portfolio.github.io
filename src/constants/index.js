@@ -18,6 +18,7 @@ import {
   epitech,
   rm,
   ites,
+  stef,
   reactapp,
   goldenrules,
   newsite,
@@ -27,6 +28,7 @@ import {
   mysql,
   python,
   tictac,
+  picque,
 } from "../assets";
 
 export const navLinks = [
@@ -158,11 +160,23 @@ const experiences = [
     company_name: "Epitech Digital School",
     icon: diplom,
     iconBg: "#E6DEDD",
-    date: "Sept 2023 - Present",
+    date: "Sept 2023 - 2024",
     points: [
       "I am in my final year of the Bachelor's program, aiming to obtain my degree in Project Management with a specialization in Web Development.",
       "I also have a 6-month internship to complete starting from January.",
       "A final year project will also need to be presented after my internship period.",
+    ],
+  },
+  {
+    title: "Last Internship Experience",
+    company_name: "STEF",
+    icon: stef,
+    iconBg: "#E6DEDD",
+    date: "2024",
+    points: [
+      "I am currently in the final internship of my studies since January for a period of 6 months. ",
+      "I had the honor of joining a major European company specialized in fresh and frozen logistics for this internship. They operate with large companies across Europe.",
+      "My mission during the internship was to take over a delivery management tool and other related systems to add new features, improve existing ones, and optimize the code. The tool is managed in PHP, a simple language, but the challenge was adapting to the existing code and handling large and confidential data.",
     ],
   },
 ];
@@ -279,6 +293,28 @@ const projects = [
     image: tictac,
     source_code_link: "https://github.com/aymen04/Koch-Curve",
   },
+  {
+    name: "Picque couvreur",
+    description:
+    "Website of a roofing craftsman with a contact form",
+    tags: [
+      {
+        name: "ads",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ContactForm",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FullStack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: picque,
+    source_code_link: "https://github.com/aymen04/Koch-Curve",
+  }
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -28,11 +28,13 @@ import diplom from "./company/diplom.png";
 import ites from "./company/ites.png";
 import epitech from "./company/epitech.png";
 import rm from "./company/rm.png";
+import stef from "./company/stef.png";
 
 import reactapp from "./reactapp.png";
 import goldenrules from "./goldenrules.png";
 import newsite from "./newsite.png";
 import tictac from "./tictac.png";
+import picque from"./picque.png";
 
 export {
   logo,
@@ -59,6 +61,7 @@ export {
   ites,
   epitech,
   rm,
+  stef,
   reactapp,
   goldenrules,
   newsite,
@@ -67,4 +70,5 @@ export {
   mysql,
   python,
   tictac,
+  picque,
 };
