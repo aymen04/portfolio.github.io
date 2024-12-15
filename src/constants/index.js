@@ -345,7 +345,7 @@ const projects = [
       },
     ],
     image: picque,
-    source_code_link: "https://github.com/aymen04/Koch-Curve",
+    source_code_link: "",
   },
   {
     name: "Projet de fin d'études",
@@ -409,9 +409,7 @@ const projects = [
     ],
     image: rr,
     source_code_link: "https://github.com/aymen04/Koch-Curve",
-  },
-
-  
+  }
   
 ];
 
