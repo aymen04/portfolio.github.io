@@ -29,16 +29,18 @@ import {
   python,
   tictac,
   picque,
+  cu,
+  leon,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "À propos",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Rendus",
   },
   {
     id: "contact",
@@ -119,64 +121,92 @@ const technologies = [
 
 const experiences = [
   {
-    title: "First Step",
+    title: "Collège / Lycée",
+    company_name: "Lycée Français Léon l'Africain",
+    icon: leon,
+    iconBg: "#383E56",
+    date: "2014 - 2020",
+    points: [
+      "Titulaire d’un baccalauréat français STMG en spécialité Gestion Finance.",
+    ],
+  },
+  {
+    title: "Bachelor",
     company_name: "Epitech Digital School",
     icon: epitech,
     iconBg: "#383E56",
-    date: "2019 - 2020",
+    date: "2021",
     points: [
-      "During this year, I joined Epitech Digital to earn my degree and enhance my skills.",
-      "This first year was very instructive, as learning was achieved through practical work in collaboration with designers and marketers. ",
-      "The deliverables were mainly projects presented in front of juries.",
+      "Cette année, j'ai intégré Epitech Digital afin d'obtenir mon diplôme et de perfectionner mes compétences.",
+      "Cette première année a été très enrichissante, car l'apprentissage s'est fait à travers des travaux pratiques en collaboration avec des designers et des marketeurs.",
+      "Les livrables étaient principalement des projets présentés devant des jurys.",
     ],
   },
   {
-    title: "First Internship Experience",
+    title: "Premier stage d'études",
     company_name: "Red Med Capital",
     icon: rm,
     iconBg: "#E6DEDD",
-    date: "Jun 2022 - Aug 2022",
+    date: "05/2022 - 08/2022",
     points: [
-      "For a duration of 4 months, I joined Red Med Capital , an investment bank to complete my internship.",
-      "My task was to develop a collaborative intranet for the internal members of the company.",
-      "The intranet was developed using Laravel and a Metronic 7 template.",
+      "Pendant une durée de 4 mois, j'ai intégré Red Med Capital, une banque d'investissement, pour effectuer mon stage.",
+      "Ma mission était de développer un intranet collaboratif destiné aux membres internes de l'entreprise.",
+      "L'intranet a été développé en utilisant Laravel et un template Metronic 7.",
     ],
   },
   {
-    title: "Second Internship Experience",
+    title: "Deuxième stage d'études",
     company_name: "ITES COM GROUP",
     icon: ites,
     iconBg: "#383E56",
-    date: "Jun 2023 - Aug 2023",
+    date: "05/2023 - 09/2023",
     points: [
-      "For this internship, I joined ITES COM GROUP, a leader in the buying and selling of technological and computer products.",
-      "My mission was also to create an intranet to monitor orders, tasks completed, and income.",
-      "I had the choice regarding the programming languages, so I opted for HTML/CSS for the front end, PHP for the back end and database interactions, and JavaScript to make the user journey more engaging. I preferred to use simple languages that I have mastered perfectly in order to create a truly interactive ecosystem.",
-      "I also completed a full redesign of the company's website, including a contact form.",
+      "Pour ce stage, j'ai rejoint ITES COM GROUP, un leader dans l'achat et la vente de produits technologiques et informatiques.",
+      "Ma mission consistait également à créer un intranet pour suivre les commandes, les tâches effectuées et les revenus.",
+      "J'avais le choix des langages de programmation, et j'ai donc opté pour HTML/CSS pour le front-end, PHP pour le back-end et les interactions avec la base de données, ainsi que JavaScript pour rendre l'expérience utilisateur plus attrayante. J'ai préféré utiliser des langages simples que je maîtrise parfaitement afin de créer un écosystème véritablement interactif.",
+      "J'ai également réalisé une refonte complète du site web de l'entreprise, incluant un formulaire de contact.",
     ],
   },
   {
-    title: "Final Year of Bachelor's Degree",
-    company_name: "Epitech Digital School",
-    icon: diplom,
-    iconBg: "#E6DEDD",
-    date: "Sept 2023 - 2024",
-    points: [
-      "I am in my final year of the Bachelor's program, aiming to obtain my degree in Project Management with a specialization in Web Development.",
-      "I also have a 6-month internship to complete starting from January.",
-      "A final year project will also need to be presented after my internship period.",
-    ],
-  },
-  {
-    title: "Last Internship Experience",
+    title: "Stage de fin d'études",
     company_name: "STEF",
     icon: stef,
     iconBg: "#E6DEDD",
-    date: "2024",
+    date: "01/2024-06/2024",
     points: [
-      "I am currently in the final internship of my studies since January for a period of 6 months. ",
-      "I had the honor of joining a major European company specialized in fresh and frozen logistics for this internship. They operate with large companies across Europe.",
-      "My mission during the internship was to take over a delivery management tool and other related systems to add new features, improve existing ones, and optimize the code. The tool is managed in PHP, a simple language, but the challenge was adapting to the existing code and handling large and confidential data.",
+      "J'ai effectué un stage  de fin d'études depuis janvier 2024 , pour une durée de 6 mois.",
+      "J'ai eu l'honneur de rejoindre une grande entreprise européenne spécialisée dans la logistique de produits frais et surgelés pour ce stage. Cette entreprise collabore avec de grandes sociétés à travers l'Europe.",
+      "Ma mission durant ce stage a été de prendre en charge un outil de gestion des livraisons ainsi que d'autres systèmes associés, afin d'y ajouter de nouvelles fonctionnalités, d'améliorer celles existantes et d'optimiser le code. Cet outil est développé en PHP, un langage simple, mais le défi consistait à s'adapter au code existant et à gérer des données volumineuses et confidentielles.",
+    ],
+  },
+  {
+    title: "Diplomé",
+    company_name: "Epitech Digital School",
+    icon: diplom,
+    iconBg: "#E6DEDD",
+    date: "08/2024",
+    points: [
+      "Je suis en dernière année de mon programme de Bachelor, visant à obtenir mon diplôme en Gestion de Projet avec une spécialisation en Développement Web.",
+      "Pour valider ma dernière année , j'ai effectué un stage de 6 mois dans une entreprise européenne nommée STEF.",
+     "Un projet de fin d'études a également été présenté à l'issue de ma période de stage."
+
+
+
+
+
+
+    ],
+  },
+  
+  {
+    title: "AEC MARKETING DIGITAL",
+    company_name: "Collège universel Campus Montréal",
+    icon: cu,
+    iconBg: "#E6DEDD",
+    date: "01/2024",
+    points: [
+      "Formation actuelle, pour une durée de 2 ans. ",
+      "Diplome AEC.",
     ],
   },
 ];
@@ -212,7 +242,7 @@ const projects = [
   {
     name: "Vélo'v",
     description:
-      "This project is a React web application that allows users to find real-time bike-sharing stations in Lyon. It utilizes Leaflet for mapping and displaying the stations.",
+      " Une sorte de Twitter développé en ReactJS où les utilisateurs peuvent interagir avec les publications (aimer, ne pas aimer, créer de nouvelles publications, supprimer des publications, etc.).",
     tags: [
       {
         name: "react",
@@ -233,7 +263,7 @@ const projects = [
   {
     name: "Golden Rules",
     description:
-      "A kind of Twitter developed in ReactJS where users can interact with posts (like, dislike, create new posts, delete posts, etc.)",
+      "Une sorte de Twitter développé en ReactJS où les utilisateurs peuvent interagir avec les publications (aimer, ne pas aimer, créer de nouvelles publications, supprimer des publications, etc.).",
     tags: [
       {
         name: "react",
@@ -254,7 +284,7 @@ const projects = [
   {
     name: "ITES COM Website",
     description:
-      "The ITES COM GROUP website, which I redesigned during my second-year internship, in parallel with my main mission.",
+      "Le site web d'ITES COM GROUP, que j'ai redessiné lors de mon stage de deuxième année, en parallèle de ma mission principale.",
     tags: [
       {
         name: "HTML/CSS",
@@ -275,7 +305,7 @@ const projects = [
   {
     name: "Koch Curve",
     description:
-    "A small Python script that draws a perfect Koch snowflake.",
+    "Un petit script Python qui dessine un flocon de neige de Koch parfait.",
     tags: [
       {
         name: "pyhton",
@@ -296,18 +326,18 @@ const projects = [
   {
     name: "Picque couvreur",
     description:
-    "Website of a roofing craftsman with a contact form",
+    "Site web d'un artisan couvreur avec un formulaire de contact",
     tags: [
       {
         name: "ads",
         color: "blue-text-gradient",
       },
       {
-        name: "ContactForm",
+        name: "Formulaire",
         color: "green-text-gradient",
       },
       {
-        name: "FullStack",
+        name: "Full-Stack",
         color: "pink-text-gradient",
       },
     ],

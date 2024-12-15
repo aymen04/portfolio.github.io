@@ -29,6 +29,8 @@ import ites from "./company/ites.png";
 import epitech from "./company/epitech.png";
 import rm from "./company/rm.png";
 import stef from "./company/stef.png";
+import cu from "./company/cu.jpeg";
+import leon from "./company/leon.jpg"
 
 import reactapp from "./reactapp.png";
 import goldenrules from "./goldenrules.png";
@@ -71,4 +73,6 @@ export {
   python,
   tictac,
   picque,
+  cu,
+  leon,
 };
