@@ -31,6 +31,9 @@ import {
   picque,
   cu,
   leon,
+  loya,
+  prototype,
+  rr,
 } from "../assets";
 
 export const navLinks = [
@@ -300,7 +303,7 @@ const projects = [
       },
     ],
     image: newsite,
-    source_code_link: "https://github.com/aymen04/Koch-Curve",
+    source_code_link: "",
   },
   {
     name: "Koch Curve",
@@ -343,7 +346,72 @@ const projects = [
     ],
     image: picque,
     source_code_link: "https://github.com/aymen04/Koch-Curve",
-  }
+  },
+  {
+    name: "Projet de fin d'études",
+    description:
+    "Application mobile web qui accompagne les utilisateurs dans une démarche écologique.",
+    tags: [
+      {
+        name: "Écologie",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PFE",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mobile",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: loya,
+    source_code_link: "https://github.com/aymen04/Loya-projet",
+  },
+  {
+    name: "Site vitrine de base",
+    description:
+    "Site vitrine basique développé pour m'entrainer",
+    tags: [
+      {
+        name: "Rush",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Entrainement",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prototype,
+    source_code_link: "https://github.com/aymen04/xata-search/",
+  },
+  {
+    name: "Rush React",
+    description:
+    "Site web rush pour un projet d'école , fait en 2h",
+    tags: [
+      {
+        name: "Rush",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "2H",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rr,
+    source_code_link: "https://github.com/aymen04/Koch-Curve",
+  },
+
+  
   
 ];
 

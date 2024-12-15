@@ -37,6 +37,9 @@ import goldenrules from "./goldenrules.png";
 import newsite from "./newsite.png";
 import tictac from "./tictac.png";
 import picque from"./picque.png";
+import loya from"./loya.png";
+import prototype from"./prototype.png";
+import rr from"./rushreact.png";
 
 export {
   logo,
@@ -75,4 +78,7 @@ export {
   picque,
   cu,
   leon,
+  loya,
+  prototype,
+  rr,
 };
