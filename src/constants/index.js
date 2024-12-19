@@ -34,6 +34,7 @@ import {
   loya,
   prototype,
   rr,
+  cdg,
 } from "../assets";
 
 export const navLinks = [
@@ -409,6 +410,28 @@ const projects = [
     ],
     image: rr,
     source_code_link: "https://github.com/aymen04/Koch-Curve",
+  },
+
+  {
+    name: "Site Miroir",
+    description:
+    "Site miroir réutilisable pour différents domaines",
+    tags: [
+      {
+        name: "Vitrine",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Multi-platefrome",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML/CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cdg,
+    source_code_link: "https://site-miroir.onrender.com/",
   }
   
 ];

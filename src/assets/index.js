@@ -40,6 +40,7 @@ import picque from"./picque.png";
 import loya from"./loya.png";
 import prototype from"./prototype.png";
 import rr from"./rushreact.png";
+import cdg from "./cdg.png";
 
 export {
   logo,
@@ -81,4 +82,5 @@ export {
   loya,
   prototype,
   rr,
+  cdg,
 };
