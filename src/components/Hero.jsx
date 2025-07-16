@@ -16,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#720505]">Aymen</span>
+            Hi, I'm <span className="text-[#720505]">A</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Un développeur Full Stack expérimenté avec 3 ans d'expérience,  <br className="sm:block hidden" />
-          je suis Aymen Adline, actuellement diplomé d'un bachelor en tant que chef de projet spécialité Développement Web, je combine des technologies innovantes avec un engagement profond à offrir des expériences numériques exceptionnelles.
+          je suis A. , actuellement diplomé d'un bachelor en tant que chef de projet spécialité Développement Web, je combine des technologies innovantes avec un engagement profond à offrir des expériences numériques exceptionnelles.
           </p>
         </div>
       </div>
